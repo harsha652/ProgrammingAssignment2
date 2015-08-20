@@ -6,7 +6,7 @@
 ## The function creates a list that contains four functions: set, get, setsolve, getsolve
 
 makeCacheMatrix <- function(x = matrix()) {
-{
+
         m <- NULL              #The result of inversion is stored in m
         #A Setter function is used to set a matrix to object created by makeCacheMatrix function
         set <- function(y){
